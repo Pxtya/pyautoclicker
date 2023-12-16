@@ -23,7 +23,7 @@ while True:
     
     while running:
         click()
-        time.sleep(1)
+        time.sleep(1) # Amount of seconds each click
 
         if keyboard.is_pressed('e'):
             running = False
